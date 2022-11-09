@@ -25,7 +25,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build and Maven
       run: mvn clean install
     #/- name : run JAR FILE
       #/run: sudo java -jar /home/runner/work/spring1/spring1/target/demo-0.0.1-SNAPSHOT.jar
