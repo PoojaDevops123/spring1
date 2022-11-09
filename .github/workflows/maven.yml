@@ -28,7 +28,7 @@ jobs:
     - name: Build and Maven
       run: mvn clean install
 
-- name: Execute Jar file 
+  - name: Execute Jar file 
    run: sudo java -jar /home/ubuntu/actions-runner/_work/spring1/spring1/target
       
     #/- name : run JAR FILE
