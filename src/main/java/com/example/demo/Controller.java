@@ -14,7 +14,8 @@ public class Controller {
 		String str
 			= "<html><body><font color=\"blue\">"
 			+ "<h1>Hello world.!</h1>"
-			+ "</font></body>Test</html>";
+			+ "</font></body></html>";
+
 		return str;
 	}
 
