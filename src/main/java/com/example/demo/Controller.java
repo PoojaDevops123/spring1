@@ -26,7 +26,7 @@ public class Controller {
 	{
 		String str2
 			= "<html><body><font color=\"red\">"
-			+ "<h2>TEST Route Tested"+"</h2></font></body></html>";
+			+ "<h2>TESTED"+"</h2></font></body></html>";
 		return str2;
 	}
 }
